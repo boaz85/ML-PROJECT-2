@@ -7,11 +7,11 @@
 		"noise_distribution": "unigram",
 		"noise_dist_params": {"alpha": 1},
 		"random_seed": 1234,
-		"testset_measure_iterations": 1000
+		"testset_measure_iterations": 100
 	},
 	"SGD_parameters": {
-		"learning_rate": 3,
+		"learning_rate": 0.3,
 		"minibatch_size": 50,
-		"anealing_factor": 1000
+		"anealing_factor": 300
 	}
 }

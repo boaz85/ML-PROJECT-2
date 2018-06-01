@@ -1,0 +1,17 @@
+{
+	"hyperparameters": {
+		"window_size": 5,
+		"vector_size": 150,
+		"negative_words": 10,
+		"iterations": 20000,
+		"noise_distribution": "unigram",
+		"noise_dist_params": {"alpha": 0},
+		"random_seed": 1234,
+		"testset_measure_iterations": 1000
+	},
+	"SGD_parameters": {
+		"learning_rate": 1,
+		"minibatch_size": 50,
+		"anealing_factor": 15000
+	}
+}
