@@ -12,6 +12,6 @@
 	"SGD_parameters": {
 		"learning_rate": 1,
 		"minibatch_size": 50,
-		"anealing_factor": 15000
+		"anealing_factor": 5000
 	}
 }
